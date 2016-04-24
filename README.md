@@ -12,9 +12,10 @@ Funny story: In order to publish in Chrome Web Store you must pay 5 bucks and ri
 
 ## So, how do I install it?
 
-1. Go to **Settings** > **Extensions** or paste chrome://extensions in the address bar. In Chrome Browser, in case is not clear enough.
-2. Check the top right checkbox **Developer mode**
-3. Click **Load unpacked extension** button and select the folder containing the **manifest.json** and all the other files.
+1. [Download](https://github.com/richin13/chrome-fpp/archive/master.zip) and extract the files.
+2. Go to **Settings** > **Extensions** or paste chrome://extensions in the address bar. In Chrome Browser, in case is not clear enough.
+3. Check the top right checkbox **Developer mode**
+4. Click **Load unpacked extension** button and select the folder containing the **manifest.json** and all the other files.
 
 
 ## Facebook monitoring?
