@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Facebook Privacy Protector",
+  "version": "0.1",
+  "author": "Ricardo Madriz",
+
+  "description": "Fpp opens facebook's news feed links with Incognito mode",
+  "icons": {
+    "16": "img/icons/icon_16.png",
+    "48": "img/icons/icon_48.png",
+    "128": "img/icons/icon_128.png"
+  },
+
+  "page_action": {
+    "default_icon": "img/icons/icon.png",
+    "default_title": "Facebook Privacy Protector"
+  },
+
+  "background": {
+    "scripts": ["js/incognitOpener.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.facebook.com/*"],
+      "js": ["js/facebook_pp.js"]
+    }
+  ],
+
+  "permissions": ["tabs"]
+}
