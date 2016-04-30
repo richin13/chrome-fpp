@@ -22,9 +22,10 @@ Funny story: In order to publish in Chrome Web Store you must pay 5 bucks and ri
 
 Have you ever spotted the **l.facebook.com/l.php?u=some-url-here**. It's a simple PHP redirector, you may say. Well, as far as we know, it may be a super-advanced logger or just something like this:
 
-	<?php
-	$url = $_GET['u'];
-	header("Location: " . $url);
+```php
+<?php
+header("Location: " . $_GET['u']);
+```
 
 So, why would we take that chance. Let's copy the raw url, open an Incognito window, paste that url and access that website without letting Facebook know about it. But that whole proccess is just boring so this extension does all the required steps for you. Sorry Mark.
 
